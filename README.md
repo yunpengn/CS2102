@@ -21,7 +21,7 @@ The aim of this module is to introduce the fundamental concepts and techniques n
 03-05-2018 9:00 AM
 
 ## CA Components
-- Problem Sets 30%
-- 3 Quizs 10% each, 30% in total
-- Final Examination 30%
-- Participation 10%
+- Assignments & class participation 15%
+- Team Project 15%
+- Midterm Test 20%
+- Final Examination 50%
