@@ -4,7 +4,7 @@ __AY2017/2018 Semester 2<br>
 School of Computing<br>
 National University of Singapore__
 
-#### Taught by [Stephane Bressan](http://www.comp.nus.edu.sg/~gilbert/) and [Chan Chee Yong](http://www.comp.nus.edu.sg/~hcheng/)
+#### Taught by [Stephane Bressan](http://www.comp.nus.edu.sg/~steph/) and [Chan Chee Yong](https://www.comp.nus.edu.sg/~chancy/)
 
 
 ## Description
