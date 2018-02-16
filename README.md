@@ -18,7 +18,7 @@ The aim of this module is to introduce the fundamental concepts and techniques n
 - Preparation: 3 hrs
 
 ## Examination Date
-29-04-2017 1:00 PM
+03-05-2018 9:00 AM
 
 ## CA Components
 - Problem Sets 30%
