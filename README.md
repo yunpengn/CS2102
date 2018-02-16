@@ -1,2 +1,5 @@
-# CS2102
-CS2102 Database Systems @ NUS SoC
+# CS2102 Database Systems
+
+__AY2017/2018 Semester 2<br>
+School of Computing<br>
+National University of Singapore__
