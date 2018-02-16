@@ -10,6 +10,9 @@ National University of Singapore__
 ## Description
 The aim of this module is to introduce the fundamental concepts and techniques necessary for the understanding and practice of design and implementation of database applications and of the management of data with relational database management systems. The module covers practical and theoretical aspects of design with entity-relationship model, theory of functional dependencies and normalisation by decomposition in second, third and Boyce-Codd normal forms. The module covers practical and theoretical aspects of programming with SQL data definition and manipulation sublanguages, relational tuple calculus, relational domain calculus and relational algebra.
 
+## Useful Links
+- [How to set `psql` on Windows properly](psql_setup.md)
+
 ## Weekly Workload
 - Lecture: 2 hrs
 - Tutorial: 1.5 hrs
