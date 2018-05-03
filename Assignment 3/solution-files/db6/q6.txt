@@ -1,0 +1,6 @@
+ rname  
+--------
+ Delta
+ Lambda
+(2 rows)
+

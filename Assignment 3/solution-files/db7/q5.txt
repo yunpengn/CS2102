@@ -1,0 +1,7 @@
+ cname 
+-------
+ Alice
+ Bob
+ Moe
+(3 rows)
+

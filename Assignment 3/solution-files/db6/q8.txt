@@ -1,0 +1,5 @@
+ rname 
+-------
+ Delta
+(1 row)
+

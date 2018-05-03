@@ -1,0 +1,6 @@
+  pizza   
+----------
+ Diavola
+ Marinara
+(2 rows)
+

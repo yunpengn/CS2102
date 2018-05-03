@@ -1,0 +1,9 @@
+ rname  | totalprice 
+--------+------------
+ Alpha  |         43
+ Delta  |         37
+ Gamma  |         49
+ Lambda |         48
+ Theta  |         41
+(5 rows)
+

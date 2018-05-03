@@ -1,0 +1,109 @@
+
+Q1.
+
+F = {
+{A,B} → {D,E},
+{A,B} → {B},
+{D,E} → {B},
+{A,B,C} → {C,D},
+{C,D,E} → {B}
+}
+
+(a) 
+1) {D,E} → {B} (given)
+2) {A,C,D,E} → {A,C,D,E,B} (augmentation of (1) with ACDE)
+
+
+(b) 
+Observe that the two FDs {A,B} → {B} and {A,B,C} → {C} are trivial in F.
+Removing these from F, we have
+F = {
+{A,B} → {D,E},
+{D,E} → {B},
+{A,B,C} → {D},
+{C,D,E} → {B}
+}
+
+Since attribute A does not appear on the right-hand side of any FD in F, for any X ⊆ {B,C,D,E},  A will not be in X+.  Similarly, since C does not appear on the right-hand side of any FD in F, for any Y ⊆ {A,B,D,E},  C will not be in Y+.  Therefore any candidate key of R must contain at least A and C.
+
+{A,C}+ = {A,C}
+{A,B,C}+ = {A,B,C,D,E} = R
+{A,C,D}+ = {A,C,D}
+{A,C,E}+ = {A,C,E}
+{A,C,D,E}+ = {A,C,D,E,B} = R
+
+Therefore, candidate keys of R are {A,B,C} and {A,C,D,E}.
+
+(c) Since {D,E} → {B} is a non-trivial FD and {D,E} is not a superkey of R, R is not in BCNF.
+
+
+(d) 
+F = {
+{A,B} → {D},
+{A,B} → {E},
+{D,E} → {B},
+{A,B,C} → {D},
+{C,D,E} → {B}
+}
+
+{A}+ = {A}
+{B}+ = {B}
+{D}+ = {D}
+{E}+ = {E}
+{B,C}+ = {B,C}
+{A,C}+ = {A,C}
+{A,B}+ = {A,B,D,E} which implies that C is redundant in {A,B,C} → {D},
+
+Therefore, we have
+F = {
+{A,B} → {D},
+{A,B} → {E},
+{D,E} → {B},
+{C,D,E} → {B}
+}
+
+{D,E}+ = {D,E,B} which implies that C is a redundant in  {C,D,E} → {B}
+
+Therefore, a minimal cover of F is
+{
+{A,B} → {D},
+{A,B} → {E},
+{D,E} → {B}
+}
+
+(e)
+An extended minimal cover of F is
+{
+{A,B} → {D,E},
+{D,E} → {B}
+}
+
+Create R1(A,B,D,E) from {A,B} → {D,E}.
+{D,E,B} is already contained in R1.
+Create R2(A,B,C) from candidate key {A,B,C}
+
+3NF Decomposition: { R1(A,B,D,E), R2(A,B,C)  }
+
+(f) Additional discussion. Is decomposition {R1(A,B,D,E), R2(A,B,C)} in BCNF?
+
+F1 = {
+{A,B} → {D,E}
+{D,E} → {B}
+} 
+
+{D,E}+ (wrt F1) = {D,E,B}.
+Therefore {D,E} → {B} violates the BCNF of R1 and the decomposition is not in BCNF.
+
+(f) Additional discussion. Given decomposition {R1(A,B,D,E), R2(A,B,C)}, refine it to a BCNF decomposition. 
+
+Use {D,E} → {B} to decompose R1(A,B,D,E) into R3(D,E,B) and R4(A,D,E)
+
+Thus, decomposition becomes
+{R2(A,B,C) R3(D,E,B) R4(A,D,E)}
+
+F2 does not contain any non-trivial FD => R2 is in BCNF.
+F3 = { DE → B } and DE is a superkey of R3 => R3 is in BCNF
+F4 does not contain any non-trivial FD => R4 is in BCNF.
+The decomposition {R2(A,B,C) R3(D,E,B) R4(A,D,E)} is in BCNF but it is not dependency preserving (e.g., {A,B} → {D,E} is not preserved)
+
+

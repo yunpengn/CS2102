@@ -1,0 +1,4 @@
+ area | numcustomers | numrestaurants | maxprice 
+------+--------------+----------------+----------
+(0 rows)
+

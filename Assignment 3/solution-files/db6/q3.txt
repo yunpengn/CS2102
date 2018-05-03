@@ -1,0 +1,14 @@
+ cname 
+-------
+ Alice
+ Bob
+ Curly
+ Dave
+ Fred
+ Hugh
+ Ivy
+ Joe
+ Larry
+ Moe
+(10 rows)
+

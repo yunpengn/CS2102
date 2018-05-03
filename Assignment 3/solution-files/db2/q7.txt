@@ -1,0 +1,4 @@
+ rname | pizza1 | pizza2 | pizza3 | totalprice 
+-------+--------+--------+--------+------------
+(0 rows)
+

@@ -1,0 +1,16 @@
+ rname1  | rname2 
+---------+--------
+ Delta   | Iota
+ Delta   | Zeta
+ Epsilon | Lambda
+ Epsilon | Theta
+ Eta     | Delta
+ Eta     | Gamma
+ Gamma   | Iota
+ Gamma   | Zeta
+ Iota    | Zeta
+ Lambda  | Eta
+ Lambda  | Iota
+ Lambda  | Zeta
+(12 rows)
+

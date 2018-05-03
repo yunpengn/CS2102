@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo "PGUSER=$PGUSER"
+echo "PGHOST=$PGHOST"
+echo "PGDATABASE=$PGDATABASE"
+echo "PGSQL_EDITOR=$PSQL_EDITOR"

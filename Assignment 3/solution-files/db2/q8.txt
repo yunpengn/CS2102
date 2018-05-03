@@ -1,0 +1,14 @@
+  rname  
+---------
+ Alpha
+ Beta
+ Delta
+ Epsilon
+ Eta
+ Gamma
+ Iota
+ Lambda
+ Theta
+ Zeta
+(10 rows)
+

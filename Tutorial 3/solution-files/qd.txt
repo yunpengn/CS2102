@@ -1,0 +1,8 @@
+   pizza    
+------------
+ Diavola
+ Funghi
+ Hawaiian
+ Margherita
+(4 rows)
+

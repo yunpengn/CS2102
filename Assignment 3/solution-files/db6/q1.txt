@@ -1,0 +1,10 @@
+ rname  
+--------
+ Alpha
+ Delta
+ Eta
+ Gamma
+ Lambda
+ Theta
+(6 rows)
+

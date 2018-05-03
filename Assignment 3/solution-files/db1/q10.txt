@@ -1,0 +1,5 @@
+ rname  
+--------
+ Lambda
+(1 row)
+

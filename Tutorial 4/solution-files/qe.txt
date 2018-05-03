@@ -1,0 +1,7 @@
+ cname1 | cname2 
+--------+--------
+ Bob    | Fred
+ Bob    | Ivy
+ Fred   | Ivy
+(3 rows)
+

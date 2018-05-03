@@ -1,0 +1,14 @@
+  rname  | maxprice 
+---------+----------
+ Alpha   |       24
+ Beta    |       32
+ Delta   |       22
+ Epsilon |       28
+ Eta     |       24
+ Gamma   |       30
+ Iota    |       27
+ Lambda  |       32
+ Theta   |       26
+ Zeta    |       17
+(10 rows)
+

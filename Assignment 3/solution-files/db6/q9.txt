@@ -1,0 +1,11 @@
+    area    | numcustomers | numrestaurants | maxprice 
+------------+--------------+----------------+----------
+ Central    |            3 |              3 |       34
+ East       |            2 |              0 |        0
+ North      |            2 |              2 |       28
+ North-West |            2 |              0 |        0
+ South      |            2 |              2 |       26
+ South-East |            2 |              0 |        0
+ West       |            2 |              3 |       32
+(7 rows)
+

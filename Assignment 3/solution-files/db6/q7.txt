@@ -1,0 +1,6 @@
+ rname | pizza1 |   pizza2   |  pizza3  | totalprice 
+-------+--------+------------+----------+------------
+ Delta | Funghi | Margherita | Marinara |         71
+ Gamma | Funghi | Margherita | Marinara |         79
+(2 rows)
+

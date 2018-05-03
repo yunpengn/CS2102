@@ -1,0 +1,6 @@
+  pizza   | rname  
+----------+--------
+ Funghi   | Beta
+ Marinara | Lambda
+(2 rows)
+

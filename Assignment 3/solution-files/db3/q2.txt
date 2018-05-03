@@ -1,0 +1,7 @@
+  pizza   
+----------
+ Diavola
+ Funghi
+ Marinara
+(3 rows)
+

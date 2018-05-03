@@ -1,0 +1,28 @@
+ cname  |   pizza    
+--------+------------
+ Alice  | Diavola
+ Alice  | Funghi
+ Alice  | Marinara
+ Bob    | Diavola
+ Bob    | Funghi
+ Bob    | Marinara
+ Carol  | Funghi
+ Carol  | Margherita
+ Carol  | Marinara
+ Dave   | Funghi
+ Dave   | Margherita
+ Dave   | Marinara
+ Eve    | Funghi
+ Eve    | Hawaiian
+ Fred   | Funghi
+ Fred   | Hawaiian
+ George | 
+ Hugh   | Diavola
+ Hugh   | Hawaiian
+ Hugh   | Marinara
+ Ivy    | 
+ Joe    | Funghi
+ Joe    | Hawaiian
+ Joe    | Marinara
+(24 rows)
+
